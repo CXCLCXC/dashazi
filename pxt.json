@@ -1,0 +1,33 @@
+{
+    "name": "步进电机实验-拓展",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-28byj-48-stepper": "github:tinkertanker/pxt-stepper-motor#v0.0.5",
+        "motorbit": "github:emakefun/pxt-motorbit#2e34aab17386da894d1fdbd6318e86ab3525fe0e",
+        "wonderecho": "github:Hiwonder/WonderEcho#7414b2d6d4a6dc5595f126607506401b192a0016",
+        "radio-broadcast": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v7.0.51",
+        "tag": "v7.0.51",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/c3819f016bd720d0eb86efea9a84dcd4fc7b2e1f",
+        "target": "8.0.18",
+        "pxt": "11.1.5",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
